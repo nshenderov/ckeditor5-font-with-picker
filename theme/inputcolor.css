@@ -1,0 +1,76 @@
+.ck .ck-color-input{
+	width: 53px;
+	font-size: 0.77rem;
+	height: 10px;
+	margin: 0 5px 0 8px;
+	margin-bottom: 8px;
+	padding: 3px 0 0 2px;
+	box-sizing: border-box;
+	outline: none;
+	border-radius: var(--ck-border-radius) ;
+	background-color: var(--ck-color-button-default-hover-background);
+}
+.ck .ck-color-input:focus{
+	background-color: var(--ck-color-button-on-background);
+}
+
+.ck .ck-color-picker{
+	margin: 0 0 8px 0px;
+}
+
+.ck .ck-color-picker > svg{
+	display: block !important;
+	color:var(--ck-color-base-text) !important; 
+	pointer-events: none !important;
+	width: 14px;
+}
+
+
+.ck .ck-color-picker-save{
+	background-color: var(--ck-color-button-default-hover-background);
+	margin: 0 0 8px 5px;
+}
+
+.ck .ck-color-picker-save:hover{
+	background-color: var(--ck-color-button-on-background) !important;
+}
+
+.ck .ck-color-picker-save > svg{
+	display: block !important;
+	stroke:var(--ck-color-base-active);
+}
+
+.ck .ck-color-picker-save > svg > #primary, #primary-2{
+	stroke:var(--ck-color-base-text);
+}
+
+
+label.ck.ck-color-grid__label {
+	font-weight: unset;
+}
+
+.picker-anchor{
+	position: relative !important;
+	display: block;
+}
+
+.jsColorCw{
+	top:-2px !important;
+
+    left: 0 !important;
+    right: 0 !important;
+    margin: 0 auto !important;
+
+	position: absolute !important;
+	width: 127px !important;
+	box-shadow:  var(--ck-drop-shadow),0 0;
+	border-radius:  3px !important;
+}
+.jsColorCw > div{
+	border-radius:  3px !important;
+}
+
+
+.ck.ck-dropdown__panel{
+	position: relative;
+}
